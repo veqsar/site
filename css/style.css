@@ -1,0 +1,131 @@
+@media (max-width: 480px) and (orientation: portrait) {}    
+@media (min-width: 660px) {
+    .main {
+        margin-top: 10%;
+        padding-top: 4%;
+        width: 900px;
+        height: 400px;
+    }
+    .row{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 200px;
+        height: 300px;
+    }
+    .score{
+        margin-top: 2%;
+        width: 200px;
+        height: 80px;
+        padding-top: 6%;
+        box-sizing: border-box;
+        font-size: xx-large;
+    }
+    .card{
+        margin-top: 3%;
+        width: 200px;
+        height: 300px;
+        
+    }
+    .button{
+        
+        margin-top: 45%;
+        width: 200px;
+        height: 50px;
+        padding-top: 3%;
+        
+    }
+    .text{
+        
+        margin-top: 1%;
+        width: 200px;
+        height: 50px;
+        padding-top: 3%;
+    }}
+@media (min-width: 860px){
+    .main{
+        margin-top: 10%;
+        padding-top: 4%;
+        width: 900px;
+        height: 400px;
+    }
+    .row{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 300px;
+        height: 300px;
+    }
+    .score{
+        margin-left: 10%;
+        margin-top: 2%;
+        width: 200px;
+        height: 80px;
+        padding-top: 6%;
+        box-sizing: border-box;
+        font-size: xx-large;
+    }
+    .card{
+        margin-top: 3%;
+        width: 200px;
+        height: 300px;
+    }
+    .button{
+        margin-left: 10%;
+        margin-top: 45%;
+        width: 200px;
+        height: 50px;
+        padding-top: 3%;
+    }
+    .text{
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 200px;
+        height: 50px;
+        padding-top: 3%;
+    }}
+html  {
+    height: 100%;
+    margin: 0;
+}
+body{
+display: flex;
+justify-content: center;
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+height: 100%;       
+}
+.main{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.score{
+    background-color: rgb(224, 127, 7);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: solid;
+    border-color: black;
+    padding-top: 6%;
+}
+.card{
+    display: inline-block;
+}
+.button{
+    background-color: rgb(23, 183, 231);
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.text{
+    background-color: rgb(23, 183, 231);
+    border: solid;
+    border-color: black;
+    box-sizing: border-box;
+}
+.textStayl{
+    font-family: Arial;
+    text-align: center;
+    font-size: x-large; 
+}
